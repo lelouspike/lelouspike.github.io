@@ -1,12 +1,8 @@
-## Here is a test. 
+## Welcome to Lelou's Homepage
 
+I am Lelou, you can define me as anyone or anything you wish to define as.
 
-
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/lelouspike/lelouspike.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Well, I also have another Github account TeddyRemusLupin for my assigns. The Prof. requires everyone to set up the github. io page as an assign. So I created this one.
 
 ### Markdown
 
