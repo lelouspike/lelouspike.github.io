@@ -4,13 +4,13 @@ I am Lelou, you can define me as anyone or anything you wish to define as.
 
 Well, I also have another Github account TeddyRemusLupin for my assigns. The Prof. requires everyone to set up the github. io page as an assign. So I created this one.
 
-# A message to someone 
+## A message to someone 
 首先试试可不可以写中文。其次我不觉得我能胜任一些事情，所以静观其变是最优解。
 
-# 一点说明
+## 一点说明
 下面的内容不删掉是因为我记性差，怕忘了怎么添加新内容（逃
 
-# 一个奇怪的联络方式
+## 一个奇怪的联络方式
 腾讯文档：【腾讯文档】Lelou's Whiteboard https://docs.qq.com/doc/DY05lcEFmWHpad0hD
 
 ### Markdown
