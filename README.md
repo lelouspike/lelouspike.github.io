@@ -4,6 +4,8 @@ I am Lelou, you can define me as anyone or anything you wish to define as.
 
 Well, I also have another Github account TeddyRemusLupin for my assigns. The Prof. requires everyone to set up the github. io page as an assign. So I created this one.
 
+# Header 1 
+A message to someone: 首先试试可不可以写中文。其次我不觉得我能胜任一些事情，所以静观其变还真不错。
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
