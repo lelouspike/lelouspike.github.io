@@ -41,3 +41,42 @@ float horizontalInput = Input.GetAxis("Horizontal");
 
 transform.Translate(newVector3(horizontalInput,0,0) * speed * Time.delatTime);
 
+### Collectible GameObjects
+To get started with collecting objects, we need to ensure that one thing is for sure.
+Physics is enabled that we can actually run into this object.
+IsTrigger must be checked that we can then pass through the object.
+If IsTrigger is not checked, it's then a solid object.
+We need to have collectible to have Physics. 
+
+Unity has an internal method that automatically gets called when a collision occurs and that's called OnTriggerEnter, allow us to get information about the object that collided with us as well as perform any actions.
+
+If you're working with a solid object, such as you didn't use IsTrigger, then you would use OnCollisionEnter.
+Trigger is used for if the IsTrigger value on the collider is checked.
+
+//This parameter here is going to store whatever object hit.
+For example, if the player runs into it, the object player's going to be stored inside this collider variavle.
+
+private void OnTriggerEnter(Collider, other)
+//we are checking for the player.
+{
+ if(other.tag == "Player")
+ {
+ // simulate the experience of collecting an object
+ Destroy(this.gameObject);
+ }
+}
+
+
+### Pause System
+//pause
+if (Input.GetKeyDown(Keycode.Space))
+{
+ Time.timeScale = 0;
+}
+
+if(Input.GetKeyDown(Keycode.R))
+{
+ Time.timeScale = 1;
+}
+timeScale: 0是暂停，1是原速度，0.5是半速
+
