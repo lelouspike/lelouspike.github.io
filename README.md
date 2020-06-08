@@ -6,7 +6,9 @@ Gmail: lelouspike@gmail.com
 Unity
 
 # Unity学习
-## Unity C#教程学习
+
+## Unity C# Survival Guide
+
 ### 改变GameObject的位置
 A Vector3 is going to hold the x,y,and z position data of the player.
 public Vector3 startPostion;
@@ -80,3 +82,17 @@ if(Input.GetKeyDown(Keycode.R))
 }
 timeScale: 0是暂停，1是原速度，0.5是半速
 
+
+## Rotations
+
+### Quaternion Identity
+
+private GameObject cubePrefab;
+
+if (Input.GetKeyDown(keycode.Space))
+{
+ Instantiate(cubePrefab,Vector3.zero,Quaternion.identity);//没有rotation
+ Instantiate(cubePrefab,Vector3.zero,Quaternion.Euler(x,y,z));//有rotation
+}
+
+### Quaternion Look Rotation
